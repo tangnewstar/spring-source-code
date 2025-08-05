@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.PathVariable;
  * @description
  * @date 2025/8/4
  */
-
 @FeignClient(name = "service-provider")
 public interface ProviderClient {
 

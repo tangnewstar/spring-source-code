@@ -4,6 +4,10 @@ server:
 spring:
   application:
     name: service-provider  # 服务名称，用于服务发现
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
 
 eureka:
   client:
