@@ -8,8 +8,8 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:8848
-#    loadbalancer:
-#      configurations: random
+    loadbalancer:
+      configurations: zone-preference
 
 eureka:
   client:
